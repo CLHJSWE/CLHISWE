@@ -2,10 +2,15 @@
 
 int judge(int a[][16],int i,int j)
 {
-	int i,jb[4][4];
+	int i,j,b[4][4];
 	for(i=0;i<4;i++)
 		for(j=0;j<4;j++)
-			b[i][j]=a[i]
+			b[i][j]=a[i][i*4+j];
+	
+	
+	
+	
+	 
 	
 	return 0;
 }
